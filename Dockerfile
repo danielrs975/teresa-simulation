@@ -1,4 +1,4 @@
-FROM danielrs975/ros-melodic-gazebo
+FROM danielrs975/ros-melodic-gazebo:0.1
 
 # Copy the simulation files into the image
 COPY ./gazebo_envs /
